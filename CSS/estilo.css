@@ -1,0 +1,119 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+ 
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#barra-contenedora-menu
+{
+    
+    width:auto;
+    height:auto;
+    width: auto;
+    margin: 5px;
+    text-align: center;    
+    border-radius: 14px 0px 14px 0px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    
+}
+
+h1
+{
+    padding:0;
+    margin:0;
+    color:black;
+    font-size: 40px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+
+ul {
+    list-style-type: none;
+    width: auto;
+    display:block; /*ajusta el bloque ul en celdas para que no ocupe todo el ancho de la pantalla --->table-cell*/
+    margin: auto;
+    
+    overflow: hidden; /*barra donde esta todas las opciones*/
+    background-color:maroon;
+    font-size: 18px;
+    
+    border-radius: 14px 0px 14px 0px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    margin: 10px;
+    
+}
+
+li {/*menu de opciones*/
+    float: left;
+    
+}
+
+#barra-contenedora-menu-2 { /*texto itil*/
+    text-align: center;
+}
+
+
+li a, .dropbtn { /*bloque donde estan las opciones*/
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/*
+li.dropdown {
+    display: inline-block;
+}
+*/
+
+.dropdown-content{/*opciones desplegables del item CONSULTAS*/
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+    
+    
+}
+
+.dropdown-content a { /*opciones desplegables del item CONSULTAS*/
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.barra-menu-2 li{
+    
+    height:auto;
+    width: auto;
+    padding: 0px;
+    
+    
+    
+    border-radius: 14px 14px 14px 14px;
+    -moz-border-radius: 14px 14px 14px 14px;
+    -webkit-border-radius: 14px 14px 14px 14px;
+    margin: 10px;
+    
+    
+}
