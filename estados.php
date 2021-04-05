@@ -19,7 +19,7 @@
                 <br><br>
 
                 <img id="img" src="imagenes/ordenServicio.jpg"  alt="">
-                <a href="" >ESTADOS DE ORDENES DE SERVICIO</a><br><br>
+                <a href="estadoOrdenServicio.php" >ESTADOS DE ORDENES DE SERVICIO</a><br><br>
 
                 <img id="img" src="imagenes/busqueda.jpg"  alt="">
                 <a href=""> BUSQUEDA POR NUMERO DE ORDEN</a><br><br>

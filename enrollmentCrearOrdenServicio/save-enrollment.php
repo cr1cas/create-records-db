@@ -1,5 +1,5 @@
 <?php
-    $id= $_REQUEST["id"];
+    //$id= $_REQUEST["id"];
     $fechaSolicitud= $_REQUEST["fechaSolicitud"];
     $cliente= $_REQUEST["cliente"];
     $direccion= $_REQUEST["direccion"];

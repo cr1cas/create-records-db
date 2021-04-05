@@ -1,7 +1,8 @@
 <?php
     
-    $id= $_REQUEST["id"];
+    //$id= $_REQUEST["id"];
     $servicio= $_REQUEST["servicio"];
+    $sector= $_REQUEST["sector"];
     
      
     $host = "localhost";
@@ -11,7 +12,7 @@
 
     $cnx = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
     /*contruir la sentencia */
-    $sql = "INSERT INTO tiposervicio (id, servicio) VALUES (NULL, '$servicio')";
+    $sql = "INSERT INTO tiposervicio (id, servicio, sector) VALUES (NULL, '$servicio', '$sector')";
     
     /*preparar la sentencia */
     $q = $cnx -> prepare ($sql);

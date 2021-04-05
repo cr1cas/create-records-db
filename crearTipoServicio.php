@@ -22,7 +22,7 @@
             
             <form action="guardarServicio.php" method="POST">
             servicio <input type="text" name="servicio"><br>
-            
+            sector <input type="text" name="sector"><br>
             
             <br>
             <input type="submit" value="Guardar Servicio">

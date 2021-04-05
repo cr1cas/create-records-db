@@ -1,6 +1,6 @@
 <?php
     
-    $id= $_REQUEST["id"];
+    //$id= $_REQUEST["id"];
     $nombre= $_REQUEST["nombre"];
     $direccion= $_REQUEST["direccion"];
     $telefono= $_REQUEST["telefono"];

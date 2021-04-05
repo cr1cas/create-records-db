@@ -15,14 +15,14 @@
         
         <ul class="barra-menu-2">
             <li><a href="opciones.php">Opciones</a></li>
-            <li class="dropdown">
+            <!--<li class="dropdown">
                 <a href="" class="dropbtn">Consultas</a>
                     <div class="dropdown-content">
                         <a href="#">Link 1</a>
                         <a href="#">Link 2</a>
                         <a href="#">Link 3</a>
                     </div>
-            </li>
+            </li>-->
             
             <li><a href="estados.php">Estados</a></li>
             <li><a href="#">Actualizar</a></li>

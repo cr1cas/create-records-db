@@ -1,6 +1,6 @@
 <?php
     
-    $id= $_REQUEST["id"];
+    //$id= $_REQUEST["id"];
     $nombre= $_REQUEST["nombre"];
     $cargo= $_REQUEST["cargo"];
         
